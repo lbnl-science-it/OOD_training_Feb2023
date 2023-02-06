@@ -249,7 +249,7 @@ For other type of project creation chose the project type and follow the steps.
 
 ---
 ### Project Management : 
-Navigate to project page by choosing project listed under MyLRC Cluster Projects. 
+Navigate to project page by choosing a project listed under MyLRC Cluster Projects. 
 ![bg left-bottom w:550](Figures/mylrc_project_mamagement1.png)
 ![bg right-bottom w:550](Figures/mylrc_project_management2.png)
 
@@ -258,14 +258,14 @@ Navigate to project page by choosing project listed under MyLRC Cluster Projects
 
 <style scoped>section { font-size: 22px; }</style>
 
-**Project Information**: Project information can be modified using Update Project Information button. 
+**Project Information**: Project information can be modified using Update Project Information button.
 **Note:** PID change is not possible on the portal. PI/manager will have to open a ticket by sending an email to hpcshelp@lbl.gov with project name and new PID.
 
-![bg left-bottom w:550](Figures/mylrc_project_mamagement1.png)
+![bg left-bottom w:550](Figures/mylrc_project_management2_1.png)
 ![bg right-bottom w:600](Figures/mylrc_project_management9.png)
 
 ---
-**Project Join Requests from users**
+**Approving Project Join Request from users**
 ![bg right-bottom w:600](Figures/mylrc_project_management3.png)
 ![bg right-bottom w:600](Figures/mylrc_project_management8.png)
 
@@ -277,16 +277,22 @@ Navigate to project page by choosing project listed under MyLRC Cluster Projects
 Existing Project users and their details. 
 Managers or PIs can add user to project account.
 ![bg right-bottom w:400](Figures/mylrc_project_management4.png)
-![bg right-bottom w:400](Figures/mylrc_project_management5.png)
 ![bg right-bottom w:400](Figures/mylrc_project_management7.png)
+![bg right-bottom w:400](Figures/mylrc_project_management5.png)
 
 ---
 **User Deletion**
-1. Remove users from project
+1. **Remove users from project**
    User can request to leave the project or PI/manager can request removing users from the project on MyLRC portal. After removal from project user won't be able to submit jobs using that project account.
-2. Remove from a project & delete user account
+2. **Remove from a project & delete user account**
    Project PI will be responsible to inform HPCS team to inform about user's account deletion through ticketing system. User's account will be completely deleted from Lawrencium super cluster. A home and scratch directory will be removed. Account management charges of $25 will be canceled from billing cycle. 
+![ center w:1000](Figures/mylrc_delete_user.png)
 
+---
+<!-- _class: lead -->
+# Break Time! 
+5 Minutes
+![bg right w:400](Figures/breaktime.jpeg)
 
 ---
 
