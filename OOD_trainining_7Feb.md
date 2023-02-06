@@ -28,53 +28,53 @@ HPCS User Support Team
 <style scoped>section { font-size: 26px; }</style>
 
 [**Part I : Using MyLRC portal**](#4)
-Getting a user account on LRC
-Getting access to project
-Requesting project account and management
+Requesting a user account on Lawrencium super cluster
+Getting access to an existing project account
+Requesting a new project account and project management
 
 [**Part II : OOD Applications**](#31)
 Command-line shell access
 File management
 Interactive server and GUI applications, such Jupyter Notebook, Matlab and RStudio
 Full linux desktop streaming via web for GUI heavy jobs such as VMD, ParaView
-Customize Jupyter kernels 
+Customize Jupyter and Julia kernels 
 Job management and monitoring
 
 ---
-## Training style : mostly demonstration
+## Training style : Mostly Demonstration
 
-- If you have account on Lawrencium then open OOD dashboard and try it yourself as we go. 
+- If you have an account on Lawrencium cluster then open OOD dashboard and try it yourself as we go. 
 - Don't have account on Lawrencium? Don't worry! You can watch for now and try it later using training material. 
 - Training material is available on GitHub(https://github.com/lbnl-science-it/OOD_training_Feb2023.git.)
 - Recording for the training will be available here[https://it.lbl.gov/resource/hpc/for-users/training-and-tutorials/]. 
 - How to use Lawrencium? 
   - Documentation page [link](https://it.lbl.gov/resource/hpc/for-users/hpc-documentation/) 
 ---
-## MyLRC User Portal: Getting and managing LRC accounts
+## MyLRC User Portal: 
 ![bg right w:800](Figures/useraccouts_stats.png)
-- Getting a user account on LRC
-- Getting access to project
-- Requesting project account 
+- Requesting a user account on Lawrencium super cluster 
+- Getting access to an existing project account
+- Requesting a new project account and project management
   - Updating Project information
   - PCA Project renewal 
-  - Account deletion
+  - Addition and removal/deletion of user accounts
 
 MyLRC portal [login](https://mylrc.lbl.gov/)
 MyLRC [Documentation](https://it.lbl.gov/service/scienceit/high-performance-computing/mylrc-lawrencium-account-management-system/)
 
 ---
-# Getting a user account on LRC
+# Requesting a user account on Lawrencium super cluster 
 
 **Current Workflow:**
-1. Setup account on MyLRC [portal](https://mylrc.lbl.gov/) as LBNL affiliate/UC bErkeley affiliate or as an External collaborator
-2. Sign the User Access Agreement Form 
+1. Setup an account on MyLRC [portal](https://mylrc.lbl.gov/) as LBNL affiliate/UC Berkeley affiliate or as an external collaborator
+2. Sign the User Access Agreement Form on the welcome page
 3. Request to join existing project
 4. PI approval
 5. Lawrencium account creation by HPCS team
-6. Users will confirmation email and PIN+OTP set up instructions.
+6. Users will receive a confirmation email and PIN+OTP set up instructions.
 
 ---
-**Step 1:** Use your LBNL emal account to login. If you don't have lbnl email account then you can login using UC Berkeley email address or as an external collaborator.
+**Step 1:** Use your LBNL email account to login. If you don't have LBNL email account then you can login using UC Berkeley email address or as an external collaborator. 
 
 ![bg w:600](Figures/mylrc_login_page1.png)
 ![bg w:600](Figures/mylrc_login_page2.png)
@@ -99,8 +99,8 @@ Chose your institution from the drop down menu and enter your credentials for th
 
 ---
 **Step 2:** Sign the User Access Agreement Form 
-![bg w:700](Figures/mylrc_useragreement.png)
-![bg w:700](Figures/mylrc_useragreement2.png)
+![bg w:600](Figures/mylrc_useragreement.png)
+![bg w:600](Figures/mylrc_useragreement2.png)
 
 ---
 **Step 3:** Request to join existing project
@@ -110,21 +110,25 @@ Chose your institution from the drop down menu and enter your credentials for th
 ---
 **Step 4:** Approval from Principal Investigator
 
-PI will receive an email in following format.
+PI will receive an email in the following format with link to the page.
+
 ```
 Dear managers of ac_scsguest,
 
-User Sapana Soni(ssoni@lbl.gov) has requested to join your project, ac_scsguest via the MyLRC User Portal.
+User Sapana Soni (ssoni@lbl.gov) has requested to join your project, ac_scsguest via the MyLRC User Portal.
 
-Please approve/deny this request [here]{https://mylrc.lbl.gov/project/7/review-join-requests/}.
+Please approve/deny this request here.
 
 Thank you,
 MyLRC User Portal team 
 https://mylrc.lbl.gov 
 Email:hpcshelp@lbl.gov
 ```
+**Step 5:** : Account creation
+HPCS team creates a user account on Lawrencium Super cluster. No action required from users.
+
 ---
-Step 5 and 6: Account creation and confirmation
+**Step 6:**  Confirmation and Additional Information
 
 ```
 Dear Sapana Soni,
@@ -152,7 +156,7 @@ Email : hpcshelp@lbl.gov
 
 ---
 ### Getting access to project: 
-Once you get a user account on MyLRC portal and on lawrencium cluster, you can request to join other porjects. You can follow steps 3-6 from [Getting a user account on LRC](#5). 
+Once you get a user account on MyLRC portal and on lawrencium cluster, you can request to join other projects. Current workflow involves steps 3-6 from [Getting a user account on LRC](#5) . 
 
 ![center w:600](Figures/mylrc_join_other_projects.png)
 
@@ -163,7 +167,7 @@ Once you get a user account on MyLRC portal and on lawrencium cluster, you can r
 ![bg w:550](Figures/mylrc_project_menue.png)
 
 ---
-### User account Features: Request and Jobs
+### User account Features: Requests and Jobs
 
 ![bg w:550](Figures/mylrc_requests.png)
 ![bg w:550](Figures/mylrc_jobs.png)
@@ -177,6 +181,18 @@ Once you get a user account on MyLRC portal and on lawrencium cluster, you can r
 ![bg w:400](Figures/mylrc_jobs_details.png)
 
 ---
+
+#### Project Accounts
+- Three types of project accounts can be requested.   
+  1. **Primary Investigator (PI) Computing Allowance (PCA) account**: free 300K service units (SUs) per year (pc_xxx)
+  2. **Condo account**: PIs buy in compute nodes to be added to the general pool, in exchange for their own priority access and share the Lawrencium infrastructure (lr_xxx)
+  3. **Recharge account**: pay as you go with minimal recharge rate ~ $0.01/SU (ac_xxx)
+- Check out more details here. [Project Accounts](https://it.lbl.gov/resource/hpc/for-users/hpc-documentation/accounts/projects-accounts/)
+- LBNL affiliated PI can request project accout at [MyLRC portal](https://mylrc.lbl.gov/)
+- PIs can grant PCA/condo/recharge project access to researchers/students and external collaborators.
+
+---
+
 ### Requesting project account and management
 LBNL affiliated PIs can request to create a project account. Manager role can be assigned to a project user for managing project account and project renewal (for PCA projects)
 
@@ -184,25 +200,30 @@ LBNL affiliated PIs can request to create a project account. Manager role can be
 ![bg right-bottom w:550](Figures/mylrc_project_create2.png)
 
 ---
+Chose a type of project account...
+
 ![bg left-bottom w:550](Figures/mylrc_project_create3.png)
 ![bg right-bottom w:550](Figures/mylrc_project_create4.png)
 
 ---
+Example: For PCA account there will be allocation period...
 ![bg left-bottom w:450](Figures/mylrc_project_create5.png)
 ![bg right-bottom w:550](Figures/mylrc_project_create6.png)
 
 ---
+Chose PI from the dropdown list and enter project details..
+
 ![bg left-bottom w:550](Figures/mylrc_project_create7.png)
 ![bg right-bottom w:550](Figures/mylrc_project_create8.png)
 
 ---
 ![bg left-bottom w:550](Figures/mylrc_project_create9.png)
-![bg right-bottom w:550](Figures/mylrc_project_create10.png)
+![bg right-bottom w:550](Figures/mylrc_project_create11.png)
 
 ---
 Project creation request will be placed when survey is filled and submitted. Current status of the project will be available in Requests section.
-![bg left-bottom w:550](Figures/mylrc_project_create11.png)
-![bg right-bottom w:550](Figures/mylrc_project_create12.png)
+![bg left-bottom w:500](Figures/mylrc_project_create12.png)
+![bg right-bottom w:550](Figures/mylrc_project_create13.png)
 
 ---
 PI receives an email upon processing the project creation request.
@@ -224,8 +245,11 @@ https://mylrc.lbl.gov
 Email : hpcshelp@lbl.gov
 ```
 
+For other type of project creation chose the project type and follow the steps. 
+
 ---
-### Project Management
+### Project Management : 
+Navigate to project page by choosing project listed under MyLRC Cluster Projects. 
 ![bg left-bottom w:550](Figures/mylrc_project_mamagement1.png)
 ![bg right-bottom w:550](Figures/mylrc_project_management2.png)
 
