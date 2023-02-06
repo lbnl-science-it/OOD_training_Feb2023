@@ -2,9 +2,10 @@
 
 Open OnDemand (OOD) is browser-based High Performance Computing (HPC) portal supported by NSF. OOD is the easiest way to access HPC resources in addition to the command line approach. The Scientific High Performance Computing group offers the Open OnDemand service for accessing Lawrencium and other dedicated research clusters in our HPC infrastructure.
 
-Click to view [slides](http://htmlpreview.github.io/?https://github.com/lbnl-science-it/OOD_training_Feb2023/blob/main/OOD_trainining_7Feb.html) in web browser.
 
 MyLRC is a web platform designed for automated management of Lawrencium cluster accounts, including user accounts, PCA, condo and recharge projects, billing reports, and project ID validation.
+
+Click to view [slides](http://htmlpreview.github.io/?https://github.com/lbnl-science-it/OOD_training_Feb2023/blob/main/OOD_trainining_7Feb.html) in web browser.
 
 This workshop is a handson cpurse on OOD on Lawrencium supercluster and MyLRC User portal for account requests and management. This training will cover the following topics.
 
