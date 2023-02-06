@@ -25,13 +25,19 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 <!-- paginate: true -->
 # Outline
 <style scoped>section { font-size: 26px; }</style>
-1. [Introduction](#3)
-2. [Accessing OOD on Lawrencium](#5)
-3. [Interactive Apps: Jupyter Server, RStudio Server, MATLAB, Desktop](#7)
-4. [Customizing Jupyter Kernels: Python and Julia](#13)
-5. [Files: file management](#23)
-6. [Clusters: LRC shell access](#25)
-7. [Jobs: job management and submission](#26)
+
+**Part I : Using MyLRC portal**
+Getting a user account on LRC
+Getting access to project
+Requesting project account and management
+
+**Part II : OOD Applications**
+Command-line shell access
+File management
+Interactive server and GUI applications, such Jupyter Notebook, Matlab and RStudio
+Full linux desktop streaming via web for GUI heavy jobs such as VMD, ParaView
+Customize Jupyter kernels 
+Job management and monitoring
 
 ---
 ## Training style : mostly demonstration
