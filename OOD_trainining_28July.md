@@ -41,12 +41,224 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 - Training material is available on GitHub(https://github.com/lbnl-science-it/OOD_training_july2022.git/.)
 - Recording for the training will be available in the same GitHub repository. 
 - How to use Lawrencium? 
-  - One [click](https://it.lbl.gov/resource/hpc/for-users/hpc-documentation/) to the documentationnpm install -g markdown-it 
-----
+  - Documentation page [link](https://it.lbl.gov/resource/hpc/for-users/hpc-documentation/) 
+---
+## MyLRC User Portal: Getting and managing LRC accounts
+![bg right w:800](Figures/useraccouts_stats.png)
+- Getting a user account on LRC
+- Getting access to project
+- Requesting project account and management
+- Account deletion
+
+MyLRC portal [login](https://mylrc.lbl.gov/)
+MyLRC [Documentation](https://it.lbl.gov/service/scienceit/high-performance-computing/mylrc-lawrencium-account-management-system/)
+
+---
+# Getting a user account on LRC
+
+**Currentl Workflow:**
+1. Setup account on MyLRC [portal](https://mylrc.lbl.gov/) as LBNL affiliate/UC bErkeley affiliate or as an External collaborator
+2. Sign the User Access Agreement Form 
+3. Request to join existing project
+4. PI approval
+5. Lawrencium account creation by HPCS team
+6. Users will confirmation email and PIN+OTP set up instructions.
+
+---
+**Step 1:** Use your LBNL emal accoun to login. If you don't have lbnl email accout then you can login using UC Berkeley email address or as an external collaborator.
+
+![bg w:600](Figures/mylrc_login_page1.png)
+![bg w:600](Figures/mylrc_login_page2.png)
+
+---
+## LBNL Credentails
+
+![bg w:700](Figures/mylrc_lbnl_credentails1.png)
+![bg w:700](Figure/../Figures/mylrc_lbnl_credentials2.png)
+
+---
+## UC Berkeley Credentials
+![bg w:600](Figures/ucb_credentails1.png)
+
+![bg w:600](Figures/ucb_credentails2.png)
+
+---
+## External Collaborator : 
+Chose your institution from the drop down menue and enter your cretials for the account. If your institution is not listed then chose google to use a google account for login.
+![bg w:600](Figures/mylrc_external3.png)
+![bg w:600](Figures/mylrc_external2.png)
+
+---
+**Step 2:** Sign the User Access Agreement Form 
+![bg w:700](Figures/mylrc_useragreement.png)
+![bg w:700](Figures/mylrc_useragreement2.png)
+
+---
+**Step 3:** Request to join existing project
+![bg w:700](Figures/mylrc_join_project1.png)
+![bg w:700](Figures/mylrc_join_project2.png)
+
+---
+
+---
+**Step 4:** Approval from Principal Investigator
+
+PI will receive an email in following format.
+```
+Dear managers of ac_scsguest,
+
+User Sapana Soni(ssoni@lbl.gov) has requested to join your project, ac_scsguest via the MyLRC User Portal.
+
+Please approve/deny this request [here]{https://mylrc.lbl.gov/project/7/review-join-requests/}.
+
+Thank you,
+MyLRC User Portal team 
+https://mylrc.lbl.gov 
+Email:hpcshelp@lbl.gov
+```
+---
+Step 5 and 6: Account creation and confirmation
+
+```
+Dear Sapana Soni,
+
+As requested, your user account on the LRC supercluster now has access to the project ac_scsguest.
+
+Your LRC supercluster username is - viraat
+
+Instructions on how to access the LRC supercluster, hardware details, 
+filesystems, job scheduler etc... are all available at this user guide: 
+https://it.lbl.gov/service/scienceit/high-performance-computing/lrc/
+
+If this is the first time you are accessing the LRC supercluster, start with the below 
+Logging In page: https://it.lbl.gov/resource/hpc/for-users/getting-started/
+
+Please review online documentation. For any additional help or support questions
+contact us at hpcshelp@lbl.gov
+
+Thank you,
+
+MyLRC User Portal team
+https://mylrc.lbl.gov
+Email : hpcshelp@lbl.gov
+```
+
+---
+### Getting access to project: 
+Once you get a user account on MyLRC portal and on lawrencium cluster, you can request to join other porjects. You can follow steps 3-6 from [Getting a user account on LRC](#5). 
+
+![center w:600](Figures/mylrc_join_other_projects.png)
+
+---
+### User account Features: Center Summary and Project
+
+![bg w:520](Figures/mylrc_center_summary.png)
+![bg w:550](Figures/mylrc_project_menue.png)
+
+---
+### User account Features: Request and Jobs
+
+![bg w:550](Figures/mylrc_requests.png)
+![bg w:550](Figures/mylrc_jobs.png)
+
+---
+
+### User account Features: Jobs
+
+![bg w:400](Figures/mylrc_jobs_completed.png)
+![bg w:400](Figures/mylrc_jobs_list.png)
+![bg w:400](Figures/mylrc_jobs_details.png)
+
+---
+### Requesting project account and management
+LBNL affiliated PIs can request to create a project account. Manager role can be assigned to a project user for managing project account and project renewal (for PCA projects)
+
+![bg left-bottom w:450](Figures/mylrc_project_create1.png)
+![bg right-bottom w:550](Figures/mylrc_project_create2.png)
+
+---
+![bg left-bottom w:550](Figures/mylrc_project_create3.png)
+![bg right-bottom w:550](Figures/mylrc_project_create4.png)
+
+---
+![bg left-bottom w:450](Figures/mylrc_project_create5.png)
+![bg right-bottom w:550](Figures/mylrc_project_create6.png)
+
+---
+![bg left-bottom w:550](Figures/mylrc_project_create7.png)
+![bg right-bottom w:550](Figures/mylrc_project_create8.png)
+
+---
+![bg left-bottom w:550](Figures/mylrc_project_create9.png)
+![bg right-bottom w:550](Figures/mylrc_project_create10.png)
+
+---
+Project creation request will be placed when survey is filled and submitted. Current status of the project will be available in Requests section.
+![bg left-bottom w:550](Figures/mylrc_project_create11.png)
+![bg right-bottom w:550](Figures/mylrc_project_create12.png)
+
+---
+PI receives an email upon processing the project creation request.
+
+Example email:
+
+```
+Dear LRC HPC Resources user,
+
+Your request to create project pc_test has been processed, and the project has been set up on the cluster.
+
+You may manage your project at  https://mybrc.brc.berkeley.edu/project/<project_number>/
+
+If you have any questions, contact us at {{ hpcshelp@lbl.gov }}.
+
+Thank you,
+MyLRC User Portal team
+https://mylrc.lbl.gov
+Email : hpcshelp@lbl.gov
+```
+
+---
+### Project Management
+![bg left-bottom w:550](Figures/mylrc_project_mamagement1.png)
+![bg right-bottom w:550](Figures/mylrc_project_management2.png)
+
+---
+
+
+<style scoped>section { font-size: 22px; }</style>
+
+**Project Information**: Project information can be modified using Update Project Information button. 
+**Note:** PID change is not possible on the portal. PI/manager will have to open a ticket by sending an email to hpcshelp@lbl.gov with project name and new PID.
+
+![bg left-bottom w:550](Figures/mylrc_project_mamagement1.png)
+![bg right-bottom w:600](Figures/mylrc_project_management9.png)
+
+---
+**Project Join Requests from users**
+![bg right-bottom w:600](Figures/mylrc_project_management3.png)
+![bg right-bottom w:600](Figures/mylrc_project_management8.png)
+
+
+---
+Existing Project users and their details. 
+Managers or PIs can add user to project account.
+![bg right-bottom w:400](Figures/mylrc_project_management4.png)
+![bg right-bottom w:400](Figures/mylrc_project_management5.png)
+![bg right-bottom w:400](Figures/mylrc_project_management7.png)
+
+---
+**User Deletion**
+1. Remove users from project
+   User can request to leave the project or PI/manager can request removing users from the project on MyLRC portal. After removal from project user won't be able to submit jobs using that project account.
+2. Remove from a project & delete user account
+   Project PI will be responsible to inform HPCS team to inform about user's account deletion through ticketing system. User's account will be completely deleted from Lawrencium super cluster. A home and scratch directory will be removed. Account management charges of $25 will be canceled from billing cycle. 
+
+
+---
 
 <style scoped>section { font-size: 24px; }</style>
 
-# Introduction 
+# Open OnDemand: Introduction 
 - What is Open OnDemand?
    - OpenOnDemand is a web platform that provides an easy access to the cluster’s HPC resourses and services.  
    - Designed and developed by Ohio Supercomputer Center.
@@ -55,11 +267,8 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
   - **Advanced users:** alternative and convenient way to traditional command line access
   
 
-
-
 ---
 <!-- _class: lead -->
-
 <style>
 footer { font-size: 20px
     }
