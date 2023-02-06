@@ -29,6 +29,8 @@ To request a Lawrencium account, please see “How to get a User Account on Lawr
 No previous experience with HPC is necessary.\
 Contact us at hpcshelp@lbl.gov if you have any questions.
 
+---------------------------------------------------------------------------------
+
 This repository contains slides for HPC Open OnDemand training on Lawrencium cluster. The slides and video recording of the presentation can be access here.
 
 The slides are made using [Marpit](https://marpit.marp.app) markdown slide deck framework and converted to HTML format using prebuild export slide deck tool in VSCode.
