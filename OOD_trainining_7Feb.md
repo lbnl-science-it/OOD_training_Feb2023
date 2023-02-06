@@ -14,8 +14,9 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
-# Open OnDemand on Lawrencium 
+# Overview of Open OnDemand and MyLRC portal
 #### Sapana Soni
+HPCS User Support Team
 
 
 ---
@@ -26,12 +27,12 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 # Outline
 <style scoped>section { font-size: 26px; }</style>
 
-**Part I : Using MyLRC portal**
+[**Part I : Using MyLRC portal**](#4)
 Getting a user account on LRC
 Getting access to project
 Requesting project account and management
 
-**Part II : OOD Applications**
+[**Part II : OOD Applications**](#31)
 Command-line shell access
 File management
 Interactive server and GUI applications, such Jupyter Notebook, Matlab and RStudio
@@ -43,7 +44,7 @@ Job management and monitoring
 ## Training style : mostly demonstration
 
 - If you have account on Lawrencium then open OOD dashboard and try it yourself as we go. 
-- Don't have account on Lawrencium? Don't worry! You can watch for now and try it later using training materail. 
+- Don't have account on Lawrencium? Don't worry! You can watch for now and try it later using training material. 
 - Training material is available on GitHub(https://github.com/lbnl-science-it/OOD_training_Feb2023.git.)
 - Recording for the training will be available here[https://it.lbl.gov/resource/hpc/for-users/training-and-tutorials/]. 
 - How to use Lawrencium? 
@@ -64,7 +65,7 @@ MyLRC [Documentation](https://it.lbl.gov/service/scienceit/high-performance-comp
 ---
 # Getting a user account on LRC
 
-**Currentl Workflow:**
+**Current Workflow:**
 1. Setup account on MyLRC [portal](https://mylrc.lbl.gov/) as LBNL affiliate/UC bErkeley affiliate or as an External collaborator
 2. Sign the User Access Agreement Form 
 3. Request to join existing project
@@ -73,13 +74,13 @@ MyLRC [Documentation](https://it.lbl.gov/service/scienceit/high-performance-comp
 6. Users will confirmation email and PIN+OTP set up instructions.
 
 ---
-**Step 1:** Use your LBNL emal accoun to login. If you don't have lbnl email accout then you can login using UC Berkeley email address or as an external collaborator.
+**Step 1:** Use your LBNL emal account to login. If you don't have lbnl email account then you can login using UC Berkeley email address or as an external collaborator.
 
 ![bg w:600](Figures/mylrc_login_page1.png)
 ![bg w:600](Figures/mylrc_login_page2.png)
 
 ---
-## LBNL Credentails
+## LBNL Credentials
 
 ![bg w:700](Figures/mylrc_lbnl_credentails1.png)
 ![bg w:700](Figure/../Figures/mylrc_lbnl_credentials2.png)
@@ -92,7 +93,7 @@ MyLRC [Documentation](https://it.lbl.gov/service/scienceit/high-performance-comp
 
 ---
 ## External Collaborator : 
-Chose your institution from the drop down menue and enter your cretials for the account. If your institution is not listed then chose google to use a google account for login.
+Chose your institution from the drop down menu and enter your credentials for the account. If your institution is not listed then chose google to use a google account for login.
 ![bg w:600](Figures/mylrc_external3.png)
 ![bg w:600](Figures/mylrc_external2.png)
 
@@ -130,7 +131,7 @@ Dear Sapana Soni,
 
 As requested, your user account on the LRC supercluster now has access to the project ac_scsguest.
 
-Your LRC supercluster username is - viraat
+Your LRC supercluster username is - spsoni
 
 Instructions on how to access the LRC supercluster, hardware details, 
 filesystems, job scheduler etc... are all available at this user guide: 
@@ -245,7 +246,7 @@ Email : hpcshelp@lbl.gov
 ![bg right-bottom w:600](Figures/mylrc_project_management8.png)
 
 ---
-**PCA Project Renewal**: PCA projects are renewed every year on 1st October and 300K SU are allocated for the Fiscal year. Condo(lr_) and reachrge accounts(ac_) won't have this option since these project do not need renwal. 
+**PCA Project Renewal**: PCA projects are renewed every year on 1st October and 300K SU are allocated for the Fiscal year. Condo(lr_) and recharge accounts(ac_) won't have this option since these project do not need renewal. 
 ![bg right-bottom w:800](Figures/mylrc_project_management10.png)
 
 ---
@@ -269,10 +270,10 @@ Managers or PIs can add user to project account.
 
 # Open OnDemand: Introduction 
 - What is Open OnDemand?
-   - OpenOnDemand is a web platform that provides an easy access to the cluster’s HPC resourses and services.  
+   - OpenOnDemand is a web platform that provides an easy access to the cluster’s HPC resources and services.  
    - Designed and developed by Ohio Supercomputer Center.
 - Why OOD?
-  - **New users:** intuitive and easy access to computing resourses, removes barrier in using HPC resourses for their research. 
+  - **New users:** intuitive and easy access to computing resources, removes barrier in using HPC resources for their research. 
   - **Advanced users:** alternative and convenient way to traditional command line access
   
 
@@ -499,7 +500,7 @@ Compute and interactive mode
 # Jobs:  submission directory
 
 Job composer creates a working directory by default on the path /global/home/users/spsoni/ondemand/data/sys/myjobs/projects/default
--  **Use default path:** Copy/upload all the files required for the jobs on this path before hitting Subimit button.
+-  **Use default path:** Copy/upload all the files required for the jobs on this path before hitting Submit button.
    -  click 'Open Dir' button at the bottom of the job script content.
    -  using a file explorer upload or transfer files
 
@@ -536,7 +537,7 @@ Job composer creates a working directory by default on the path /global/home/use
     - Time: 10.30 am to noon every Wednesday
     - Online [request](https://docs.google.com/forms/d/e/1FAIpQLScBbNcr0CbhWs8oyrQ0pKLmLObQMFmYseHtrvyLfOAoIInyVA/viewform)
   - Send us tickets at hpcshelp@lbl.gov
-  - More information about LBNL Supercluster and scientic computing services can be found [here](https://it.lbl.gov/service/scienceit/). 
+  - More information about LBNL Supercluster and scientific computing services can be found [here](https://it.lbl.gov/service/scienceit/). 
 
 Your feedback is important to us for improving HPC services and training.
 Please fill out [training survey](https://docs.google.com/forms/d/1PrqmX6Y0ZO88w2_cV1LerOIkNqo8oalWhxw3lzyz3mw/edit)
