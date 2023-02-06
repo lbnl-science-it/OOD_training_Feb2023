@@ -411,7 +411,7 @@ Creating environment in scratch space: $USER is your own username.
 conda create -p /global/scratch/users/$USER/py39_scr python=3.9 ipykernel
 source activate /global/scratch/users/$USER/py39_scr
 python -m ipykernel install --name=py39_scr --prefix=/global/scratch/users/$USER/py39_scr --display-name="py39_scratch"
-#create sysmlink to kernel in custom path
+#create symlink to kernel in custom path
 ln -s /global/scratch/users/$USER/py39 /global/home/users/$USER/.local/share/jupyter/kernels/py39
 ```
 You need to create a symlink in /global/home/users/$USER/.local/share/jupyter/kernels/ directory so that kernel appears in the jupyter notebook.
