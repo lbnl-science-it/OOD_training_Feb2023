@@ -2,7 +2,7 @@
 marp: true
 theme: gaia
 color: #000
-footer: 'HPC training : 28 July, 2022'
+footer: 'HPC training : 7 February, 2023'
 colorSecondary: #333
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.jpg')
@@ -38,8 +38,8 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 
 - If you have account on Lawrencium then open OOD dashboard and try it yourself as we go. 
 - Don't have account on Lawrencium? Don't worry! You can watch for now and try it later using training materail. 
-- Training material is available on GitHub(https://github.com/lbnl-science-it/OOD_training_july2022.git/.)
-- Recording for the training will be available in the same GitHub repository. 
+- Training material is available on GitHub(https://github.com/lbnl-science-it/OOD_training_Feb2023.git.)
+- Recording for the training will be available here[https://it.lbl.gov/resource/hpc/for-users/training-and-tutorials/]. 
 - How to use Lawrencium? 
   - Documentation page [link](https://it.lbl.gov/resource/hpc/for-users/hpc-documentation/) 
 ---
@@ -47,8 +47,10 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 ![bg right w:800](Figures/useraccouts_stats.png)
 - Getting a user account on LRC
 - Getting access to project
-- Requesting project account and management
-- Account deletion
+- Requesting project account 
+  - Updating Project information
+  - PCA Project renewal 
+  - Account deletion
 
 MyLRC portal [login](https://mylrc.lbl.gov/)
 MyLRC [Documentation](https://it.lbl.gov/service/scienceit/high-performance-computing/mylrc-lawrencium-account-management-system/)
@@ -97,8 +99,6 @@ Chose your institution from the drop down menue and enter your cretials for the 
 **Step 3:** Request to join existing project
 ![bg w:700](Figures/mylrc_join_project1.png)
 ![bg w:700](Figures/mylrc_join_project2.png)
-
----
 
 ---
 **Step 4:** Approval from Principal Investigator
@@ -238,6 +238,9 @@ Email : hpcshelp@lbl.gov
 ![bg right-bottom w:600](Figures/mylrc_project_management3.png)
 ![bg right-bottom w:600](Figures/mylrc_project_management8.png)
 
+---
+**PCA Project Renewal**: PCA projects are renewed every year on 1st October and 300K SU are allocated for the Fiscal year. Condo(lr_) and reachrge accounts(ac_) won't have this option since these project do not need renwal. 
+![bg right-bottom w:800](Figures/mylrc_project_management10.png)
 
 ---
 Existing Project users and their details. 
