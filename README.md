@@ -7,17 +7,17 @@ MyLRC is a web platform designed for automated management of Lawrencium cluster 
 This workshop is a handson cpurse on OOD on Lawrencium supercluster and MyLRC User portal for account requests and management. This training will cover the following topics.
 
 **Part I : Using MyLRC portal**
-Getting a user account on LRC
-Getting access to project
-Requesting project account and management
+- Getting a user account on LRC
+- Getting access to project
+- Requesting project account and management
 
 **Part II : OOD Applications**
-Command-line shell access
-File management
-Interactive server and GUI applications, such Jupyter Notebook, Matlab and RStudio
-Full linux desktop streaming via web for GUI heavy jobs such as VMD, ParaView
-Customize Jupyter kernels 
-Job management and monitoring
+- Command-line shell access
+- File management
+- Interactive server and GUI applications, such Jupyter Notebook, Matlab and RStudio
+- Full linux desktop streaming via web for GUI heavy jobs such as VMD, ParaView
+- Customize Jupyter kernels 
+- Job management and monitoring
 
 
 
