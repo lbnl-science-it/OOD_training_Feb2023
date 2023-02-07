@@ -25,20 +25,20 @@ HPCS User Support Team
 
 <!-- paginate: true -->
 # Outline
-<style scoped>section { font-size: 26px; }</style>
+<style scoped>section { font-size: 25px; }</style>
 
 [**Part I : Using MyLRC portal**](#4)
-Requesting a user account on Lawrencium super cluster
-Getting access to an existing project account
-Requesting a new project account and project management
+- Requesting a user account on Lawrencium super cluster
+- Getting access to an existing project account
+- Requesting a new project account and project management
 
 [**Part II : OOD Applications**](#31)
-Command-line shell access
-File management
-Interactive server and GUI applications, such Jupyter Notebook, Matlab and RStudio
-Full linux desktop streaming via web for GUI heavy jobs such as VMD, ParaView
-Customize Jupyter and Julia kernels 
-Job management and monitoring
+- Command-line shell access
+- File management
+- Interactive server and GUI applications, such Jupyter Notebook, Matlab and RStudio
+- Full linux desktop streaming via web for GUI heavy jobs such as VMD, ParaView
+- Customize Jupyter and Julia kernels 
+- Job management and monitoring
 
 ---
 ## Training style : Mostly Demonstration
@@ -46,7 +46,7 @@ Job management and monitoring
 - If you have an account on Lawrencium cluster then open OOD dashboard and try it yourself as we go. 
 - Don't have account on Lawrencium? Don't worry! You can watch for now and try it later using training material. 
 - Training material is available on GitHub(https://github.com/lbnl-science-it/OOD_training_Feb2023.git.)
-- Recording for the training will be available here[https://it.lbl.gov/resource/hpc/for-users/training-and-tutorials/]. 
+- Recording for the training will be available [here](https://it.lbl.gov/resource/hpc/for-users/training-and-tutorials/). 
 - How to use Lawrencium? 
   - Documentation page [link](https://it.lbl.gov/resource/hpc/for-users/hpc-documentation/) 
 ---
@@ -66,7 +66,7 @@ MyLRC [Documentation](https://it.lbl.gov/service/scienceit/high-performance-comp
 # Requesting a user account on Lawrencium super cluster 
 
 **Current Workflow:**
-1. Setup an account on MyLRC [portal](https://mylrc.lbl.gov/) as LBNL affiliate/UC Berkeley affiliate or as an external collaborator
+1. Setup an account on MyLRC [portal](https://mylrc.lbl.gov/). Portal uses CILogon for user authentication. Users can register using email address provided by LBNL or UC Berkeley or other institutions or google.
 2. Sign the User Access Agreement Form on the welcome page
 3. Request to join existing project
 4. PI approval
@@ -105,7 +105,7 @@ Chose your institution from the drop down menu and enter your credentials for th
 ---
 **Step 3:** Request to join existing project
 ![bg w:700](Figures/mylrc_join_project1.png)
-![bg w:700](Figures/mylrc_join_project2.png)
+![bg w:600](Figures/mylrc_join_project2.png)
 
 ---
 **Step 4:** Approval from Principal Investigator
@@ -125,7 +125,7 @@ https://mylrc.lbl.gov
 Email:hpcshelp@lbl.gov
 ```
 **Step 5:** : Account creation
-HPCS team creates a user account on Lawrencium Super cluster. No action required from users.
+HPCS team creates a user account on Lawrencium Super cluster. Users can check status of their account on MyLRC portal.
 
 ---
 **Step 6:**  Confirmation and Additional Information
@@ -182,32 +182,30 @@ Once you get a user account on MyLRC portal and on lawrencium cluster, you can r
 
 ---
 
+### Requesting project account and management
+LBNL affiliated PIs can request to create a project account on MyLRC portal. Manager role can be assigned to a project user for managing project account and project renewal (PCA account).
+![bg w:450](Figures/mylrc_project_create1.png)
+![bg w:600](Figures/mylrc_project_create2.png)
+
+---
 #### Project Accounts
 - Three types of project accounts can be requested.   
   1. **Primary Investigator (PI) Computing Allowance (PCA) account**: free 300K service units (SUs) per year (pc_xxx)
   2. **Condo account**: PIs buy in compute nodes to be added to the general pool, in exchange for their own priority access and share the Lawrencium infrastructure (lr_xxx)
   3. **Recharge account**: pay as you go with minimal recharge rate ~ $0.01/SU (ac_xxx)
 - Check out more details here. [Project Accounts](https://it.lbl.gov/resource/hpc/for-users/hpc-documentation/accounts/projects-accounts/)
-- LBNL affiliated PI can request project accout at [MyLRC portal](https://mylrc.lbl.gov/)
+
 - PIs can grant PCA/condo/recharge project access to researchers/students and external collaborators.
-
----
-
-### Requesting project account and management
-LBNL affiliated PIs can request to create a project account. Manager role can be assigned to a project user for managing project account and project renewal (for PCA projects)
-
-![bg left-bottom w:450](Figures/mylrc_project_create1.png)
-![bg right-bottom w:550](Figures/mylrc_project_create2.png)
-
+  
 ---
 Chose a type of project account...
 
 ![bg left-bottom w:550](Figures/mylrc_project_create3.png)
-![bg right-bottom w:550](Figures/mylrc_project_create4.png)
+![bg right-bottom w:550](Figures/mylrc_project_create5.png)
 
 ---
 Example: For PCA account there will be allocation period...
-![bg left-bottom w:450](Figures/mylrc_project_create5.png)
+![bg left-bottom w:450](Figures/mylrc_project_create4.png)
 ![bg right-bottom w:550](Figures/mylrc_project_create6.png)
 
 ---
@@ -235,9 +233,9 @@ Dear LRC HPC Resources user,
 
 Your request to create project pc_test has been processed, and the project has been set up on the cluster.
 
-You may manage your project at  https://mybrc.brc.berkeley.edu/project/<project_number>/
+You may manage your project at  https://mylrc.lbl.gov/project/<project_number>/
 
-If you have any questions, contact us at {{ hpcshelp@lbl.gov }}.
+If you have any questions, contact us at hpcshelp@lbl.gov.
 
 Thank you,
 MyLRC User Portal team
@@ -248,13 +246,12 @@ Email : hpcshelp@lbl.gov
 For other type of project creation chose the project type and follow the steps. 
 
 ---
-### Project Management : 
+### Project Management : Applicable to project PIs and managers only
 Navigate to project page by choosing a project listed under MyLRC Cluster Projects. 
 ![bg left-bottom w:550](Figures/mylrc_project_mamagement1.png)
 ![bg right-bottom w:550](Figures/mylrc_project_management2.png)
 
 ---
-
 
 <style scoped>section { font-size: 22px; }</style>
 
@@ -270,7 +267,7 @@ Navigate to project page by choosing a project listed under MyLRC Cluster Projec
 ![bg right-bottom w:600](Figures/mylrc_project_management8.png)
 
 ---
-**PCA Project Renewal**: PCA projects are renewed every year on 1st October and 300K SU are allocated for the Fiscal year. Condo(lr_) and recharge accounts(ac_) won't have this option since these project do not need renewal. 
+**PCA Project Renewal**: PCA projects are renewed every Fiscal Year (1st Octoberand- 30th September) and 300K SU are allocated in the beginning of the year. However, renewal can be requested through out the year. Prorated SU will be allocated to project. Condo(lr_) and recharge accounts(ac_) won't have this option since these project do not need renewal. 
 ![bg right-bottom w:800](Figures/mylrc_project_management10.png)
 
 ---
@@ -283,9 +280,9 @@ Managers or PIs can add user to project account.
 ---
 **User Deletion**
 1. **Remove users from project**
-   User can request to leave the project or PI/manager can request removing users from the project on MyLRC portal. After removal from project user won't be able to submit jobs using that project account.
-2. **Remove from a project & delete user account**
-   Project PI will be responsible to inform HPCS team to inform about user's account deletion through ticketing system. User's account will be completely deleted from Lawrencium super cluster. A home and scratch directory will be removed. Account management charges of $25 will be canceled from billing cycle. 
+  User can request to leave the project or PI/manager can request removing users from the project on MyLRC portal. After removal from project user won't be able to submit jobs using that project account.
+1. **Remove from a project & delete user account**
+   Project PI will be responsible to inform HPCS team about user's account deletion through ticketing system. User's account will be completely deleted from Lawrencium super cluster. A home and scratch directory will be removed. Account management charges of $25 will be canceled from billing cycle. PI or user will be responsible for data backup.
 ![ center w:1000](Figures/mylrc_delete_user.png)
 
 ---
@@ -412,7 +409,7 @@ conda create -p /global/scratch/users/$USER/py39_scr python=3.9 ipykernel
 source activate /global/scratch/users/$USER/py39_scr
 python -m ipykernel install --name=py39_scr --prefix=/global/scratch/users/$USER/py39_scr --display-name="py39_scratch"
 #create symlink to kernel in custom path
-ln -s /global/scratch/users/$USER/py39 /global/home/users/$USER/.local/share/jupyter/kernels/py39
+ln -s /global/scratch/users/spsoni/py39test_scr/share/jupyter/kernels/py39_scr /global/home/users/spsoni/.local/share/jupyter/kernels/py39_scr
 ```
 You need to create a symlink in /global/home/users/$USER/.local/share/jupyter/kernels/ directory so that kernel appears in the jupyter notebook.
 
@@ -552,7 +549,7 @@ Job composer creates a working directory by default on the path /global/home/use
 
 # Log out and clean up
 - Log out of the portal
-
+![bg right w:600](Figures/ood_logout.png)
 - Clean up
   - The portal stores temporary files for interactive apps on the path $HOME//ondemand/data/sys/dashboard/batch_connect/sys
   - It is a good practice to clean up this directory periodically.
